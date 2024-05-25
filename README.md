@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# wscpack
+# WSC pack
 
 <!-- badges: start -->
 <!-- badges: end -->

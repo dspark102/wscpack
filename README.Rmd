@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# wscpack
+# WSC pack
 
 <!-- badges: start -->
 <!-- badges: end -->
