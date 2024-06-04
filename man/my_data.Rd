@@ -3,8 +3,7 @@
 \docType{data}
 \name{my_data}
 \alias{my_data}
-\title{WSC (Within Study Comparison) Dataset
-This dataset consists of various demographic, educational, psychological, and experimental variables for 2200 individuals. The data includes information on gender, race, age, education, preferences, and several psychological scales.}
+\title{WSC (Within Study Comparison) Dataset}
 \format{
 A data frame with 2200 rows and 44 variables:
 \describe{
@@ -61,7 +60,6 @@ Generated data
 my_data
 }
 \description{
-WSC (Within Study Comparison) Dataset
 This dataset consists of various demographic, educational, psychological, and experimental variables for 2200 individuals. The data includes information on gender, race, age, education, preferences, and several psychological scales.
 }
 \examples{
