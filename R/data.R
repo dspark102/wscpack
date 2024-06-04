@@ -1,23 +1,63 @@
-#' WSC Dataset
+#' WSC (Within Study Comparison) Dataset
+#
+#' This dataset consists of various demographic, educational, psychological, and experimental variables for 2200 individuals. The data includes information on gender, race, age, education, preferences, and several psychological scales.
 #'
-#' A dataset containing 2200 observations and 44 columbns used for WSC four arm study.
-#'
-#' @format A data frame with X rows and Y variables:
+#' @format A data frame with 2200 rows and 44 variables:
 #' \describe{
-#'   \item{female}{Responder's gender is female}
-#'   \item{white}{Responder's race is White}
-#'   ...
-#'   \item{logBDI}{log of BDI scale }
-#'
+#'   \item{female}{Gender of the individual (1 = female, 0 = male)}
+#'   \item{white}{Indicates if the individual is white (1 = yes, 0 = no)}
+#'   \item{black}{Indicates if the individual is black (1 = yes, 0 = no)}
+#'   \item{race_hisp}{Indicates if the individual is Hispanic (1 = yes, 0 = no)}
+#'   \item{race_asian}{Indicates if the individual is Asian (1 = yes, 0 = no)}
+#'   \item{married}{Marital status (1 = married, 0 = not married)}
+#'   \item{age_yrs}{Age of the individual in years}
+#'   \item{logAge}{Log-transformed age of the individual}
+#'   \item{collegeS}{Indicates if the individual has a college degree (1 = yes, 0 = no)}
+#'   \item{collegeM}{Indicates if the individual has a master’s degree (1 = yes, 0 = no)}
+#'   \item{collegeD}{Indicates if the individual has a doctorate degree (1 = yes, 0 = no)}
+#'   \item{calc}{Not specified}
+#'   \item{books_read}{Number of books read by the individual}
+#'   \item{logBooks}{Log-transformed number of books read}
+#'   \item{like_math}{Preference for math (1 = yes, 0 = no)}
+#'   \item{like_lit}{Preference for literature (1 = yes, 0 = no)}
+#'   \item{pref_math}{Not specified}
+#'   \item{income}{Income of the individual}
+#'   \item{logBDI}{Log-transformed BDI score}
+#'   \item{big5O}{Openness to Experience}
+#'   \item{big5C}{Conscientiousness}
+#'   \item{big5E}{Extraversion}
+#'   \item{big5A}{Agreeableness}
+#'   \item{big5N}{Neuroticism}
+#'   \item{AMAS}{Not specified}
+#'   \item{BDI_sum}{Beck Depression Inventory score}
+#'   \item{MCS}{Not specified}
+#'   \item{GSES}{General Self-Efficacy Scale score}
+#'   \item{vocabPre}{Vocabulary pre-test score}
+#'   \item{mathPre}{Math pre-test score}
+#'   \item{vocab_post_score}{Vocabulary post-test score}
+#'   \item{math_post_score}{Math post-test score}
+#'   \item{MCSpst}{Not specified}
+#'   \item{math_RCT}{Participation in a math RCT (Randomized Controlled Trial) (1 = yes, 0 = no)}
+#'   \item{math_PREF}{Not specified}
+#'   \item{ind_rct_math}{Participation in an individual math RCT (1 = yes, 0 = no)}
+#'   \item{ind_att_math}{Attendance in an individual math RCT}
+#'   \item{ind_atc_math}{Completion of an individual math RCT}
+#'   \item{ind_QED_math}{Quasi-experimental design participation in math}
+#'   \item{ind_rct_vocab}{Participation in an individual vocabulary RCT (1 = yes, 0 = no)}
+#'   \item{ind_att_vocab}{Attendance in an individual vocabulary RCT}
+#'   \item{ind_atc_vocab}{Completion of an individual vocabulary RCT}
+#'   \item{ind_QED_vocab}{Quasi-experimental design participation in vocabulary}
+#'   \item{math_train_probs_sum}{Not specified}
 #' }
-#' @source \url{https://example.com}
-#'
-#' {B.Keller et al. (2024)}....
-#'
+#' @source Generated data
 #' @examples
-#' # example code
-#'
-#'
-#'
-#'
+#' \dontrun{
+#'   data <- read.csv("data2200.csv")
+#'   head(data)
+#'   summary(data)
+#'   ggplot(data, aes(x = age_yrs)) +
+#'     geom_histogram(binwidth = 5, fill = "blue", color = "black") +
+#'     labs(title = "Distribution of Ages", x = "Age (years)", y = "Count")
+#' }
+
 "my_data"
