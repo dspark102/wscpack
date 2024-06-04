@@ -54,7 +54,7 @@ A data frame with 2200 rows and 44 variables:
 }
 }
 \source{
-data
+paper ...
 }
 \usage{
 my_data
@@ -64,10 +64,9 @@ This dataset consists of various demographic, educational, psychological, and ex
 }
 \examples{
 \dontrun{
-  data <- read.csv("data2200.csv")
-  head(data)
-  summary(data)
-  ggplot(data, aes(x = age_yrs)) +
+  head(my_data)
+  summary(my_data)
+  ggplot(my_data, aes(x = age_yrs)) +
     geom_histogram(binwidth = 5, fill = "blue", color = "black") +
     labs(title = "Distribution of Ages", x = "Age (years)", y = "Count")
 }

@@ -53,7 +53,7 @@
 #' Experimental and quasi-experimental identification of conditional average treatment effects:
 #' A four-arm within-study comparison. OSF. Retrieved from \url{https://osf.io/e3mpf}
 #'
-#' @source paper ... ()
+#' @source paper ...
 #' @examples
 #' \dontrun{
 #'   head(my_data)
