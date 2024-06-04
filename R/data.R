@@ -56,6 +56,7 @@
 #' @source paper ...
 #' @examples
 #' \dontrun{
+#'   library(wscpack)
 #'   head(my_data)
 #'   summary(my_data)
 #'   ggplot(my_data, aes(x = age_yrs)) +
