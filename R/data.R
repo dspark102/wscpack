@@ -49,7 +49,11 @@
 #'   \item{ind_QED_vocab}{Quasi-experimental design participation in vocabulary}
 #'   \item{math_train_probs_sum}{Not specified}
 #' }
-#' @source Generated data
+#' @references Keller, B., Wong, V. C., Park, S., Zhang, J., Sheehan, P., & Steiner, P. M. (2023, Feb).
+#' Experimental and quasi-experimental identification of conditional average treatment effects:
+#' A four-arm within-study comparison. OSF. Retrieved from \url{https://osf.io/e3mpf}
+#'
+#' @source  data
 #' @examples
 #' \dontrun{
 #'   data <- read.csv("data2200.csv")

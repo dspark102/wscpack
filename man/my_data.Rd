@@ -54,7 +54,7 @@ A data frame with 2200 rows and 44 variables:
 }
 }
 \source{
-Generated data
+data
 }
 \usage{
 my_data
@@ -71,5 +71,10 @@ This dataset consists of various demographic, educational, psychological, and ex
     geom_histogram(binwidth = 5, fill = "blue", color = "black") +
     labs(title = "Distribution of Ages", x = "Age (years)", y = "Count")
 }
+}
+\references{
+Keller, B., Wong, V. C., Park, S., Zhang, J., Sheehan, P., & Steiner, P. M. (2023, Feb).
+Experimental and quasi-experimental identification of conditional average treatment effects:
+A four-arm within-study comparison. OSF. Retrieved from \url{https://osf.io/e3mpf}
 }
 \keyword{datasets}
