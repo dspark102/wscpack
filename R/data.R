@@ -53,13 +53,12 @@
 #' Experimental and quasi-experimental identification of conditional average treatment effects:
 #' A four-arm within-study comparison. OSF. Retrieved from \url{https://osf.io/e3mpf}
 #'
-#' @source paper ... (tbd)
+#' @source paper ... ()
 #' @examples
 #' \dontrun{
-#'   data <- read.csv("data2200.csv")
-#'   head(data)
-#'   summary(data)
-#'   ggplot(data, aes(x = age_yrs)) +
+#'   head(my_data)
+#'   summary(my_data)
+#'   ggplot(my_data, aes(x = age_yrs)) +
 #'     geom_histogram(binwidth = 5, fill = "blue", color = "black") +
 #'     labs(title = "Distribution of Ages", x = "Age (years)", y = "Count")
 #' }
